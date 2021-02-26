@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  background: rgb(36, 1, 36);
+}
+
+.site-title {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 5rem;
+  text-shadow: 0 0 1px white,0 0 1px white,0 0 1px white,0 0 1px white,0 0 1px white,0 0 1px white,0 0 1px white,0 0 1px white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+  width: 90%;
+  margin: 0 auto;
+
+  color: white;
+  .card {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  .thumb-nail {
+    width: 300px;
+  }
+}
